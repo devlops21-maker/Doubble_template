@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+#nav-bar {
+    display:flex;
+    align-items: space-between;
+    justify-content: space-between;
+    padding:10px;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#mamo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    height: 100vh;   
+}
+
+#imu1, #imu2 {
+    width: 70%; /* fixed width */
+    height: 60px; /* fixed height */
+    border-top-right-radius:50px;
+    border-bottom-right-radius:50px;
+}
+#doubble1, #doubble2{
+   background-color: bisque;
+   margin:5px;
+   border-top-right-radius:50px;
+   border-bottom-right-radius:50px;
+   width: 150px;
+   height:60px;
+}
